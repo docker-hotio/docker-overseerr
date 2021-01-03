@@ -25,7 +25,27 @@ docker run --rm \
     hotio/overseerr
 ```
 
-In most cases you'll need to add additional volumes, depending on your own personal preference, to get access to your files.
+Compose:
+
+```yaml
+version: "3.7"
+
+services:
+  overseerr:
+    container_name: overseerr
+    image: hotio/overseerr
+    ports:
+      - "5055:5055"
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - UMASK=002
+      - TZ=Etc/UTC
+      - ARGS
+      - DEBUG=no
+    volumes:
+      - /<host_folder_config>:/config
+```
 
 ## Tags
 
