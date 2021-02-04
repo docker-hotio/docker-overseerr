@@ -47,7 +47,7 @@ services:
 
 ## Tags
 
-Go [here](https://hotio.dev/containers-overview/#hotiooverseerr) to see all available tags.
+Go [here](https://hotio.dev/tags-overview/#hotiooverseerr) to see all available tags.
 
 ## Using a secure Plex connection
 
