@@ -54,10 +54,6 @@ services:
 
 You can also find tags that reference a commit or version number.
 
-## Configuration location
-
-Your overseerr configuration inside the container is stored in `/config/app`, to migrate from another container, you'd probably have to move your files from `/config` to `/config/app`.
-
 ## Using a secure Plex connection
 
 If you want to keep using secure connections within Plex, but don't want to buy your own domain and keep the connection between Overseerr and Plex inside of their Docker network. Follow the below procedure.
