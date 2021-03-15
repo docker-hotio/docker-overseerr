@@ -2,10 +2,10 @@
   "tags": [
     {
       "name": "release",
-      "version": "1.21.0-arm-test.2",
-      "commit": "feaadfc",
+      "version": "1.21.0",
+      "commit": "61e48dd",
       "upstream": "Releases",
-      "lastUpdated": "2021-03-12T11:56:19.616Z"
+      "lastUpdated": "2021-03-15T03:12:16.982Z"
     },
     {
       "name": "testing",
