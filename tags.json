@@ -16,10 +16,10 @@
     },
     {
       "name": "nightly",
-      "version": "f48312e833ed5d48c41179d0eadbc66d45486d8a",
-      "commit": "7a1c012",
+      "version": "c4775e05fe23631d5da74f0eefa0ce5169940e9e",
+      "commit": "69624ab",
       "upstream": "Every commit to develop",
-      "lastUpdated": "2021-05-06T12:13:35.492Z"
+      "lastUpdated": "2021-05-06T13:53:22.490Z"
     }
   ],
   "pulls": 819646,
